@@ -1,10 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Tabs = props => (
-     <div className="nav-tabs-custom">
+export default props => (
+    <div className='nav-tabs-custom'> 
         {props.children}
-     </div>
+    </div> 
 )
-
-
-export default Tabs
